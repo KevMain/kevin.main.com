@@ -290,6 +290,44 @@
     <Content Include="Assets\Images\scroll-down-type5.png" />
     <Content Include="Assets\Images\scroll-down-type6.png" />
     <Content Include="Assets\Images\scroll-down-type7.png" />
+    <Content Include="Assets\Scripts\counter\init.js" />
+    <Content Include="Assets\Scripts\counter\jquery.countTo.js" />
+    <Content Include="Assets\Scripts\ct-mediaSection\init.js" />
+    <Content Include="Assets\Scripts\ct-mediaSection\jquery.frogaloop.min.js" />
+    <Content Include="Assets\Scripts\ct-mediaSection\jquery.stellar.min.js" />
+    <Content Include="Assets\Scripts\device.min.js" />
+    <Content Include="Assets\Scripts\flexslider\init.js" />
+    <Content Include="Assets\Scripts\flexslider\jquery.flexslider-min.js" />
+    <Content Include="Assets\Scripts\gmaps\gmap3.min.js" />
+    <Content Include="Assets\Scripts\gmaps\init.js" />
+    <Content Include="Assets\Scripts\intro-effects\classie.js" />
+    <Content Include="Assets\Scripts\intro-effects\fade.js" />
+    <Content Include="Assets\Scripts\intro-effects\push.js" />
+    <Content Include="Assets\Scripts\intro-effects\slice.js" />
+    <Content Include="Assets\Scripts\isotope\imagesloaded.js" />
+    <Content Include="Assets\Scripts\isotope\infinitescroll.min.js" />
+    <Content Include="Assets\Scripts\isotope\init.js" />
+    <Content Include="Assets\Scripts\isotope\jquery.isotope.min.js" />
+    <Content Include="Assets\Scripts\jquery.appear.js" />
+    <Content Include="Assets\Scripts\jquery.min.js" />
+    <Content Include="Assets\Scripts\jquery.pagescroller.lite.js" />
+    <Content Include="Assets\Scripts\magnific-popup\init.js" />
+    <Content Include="Assets\Scripts\magnific-popup\jquery.magnific-popup.min.js" />
+    <Content Include="Assets\Scripts\main.js" />
+    <Content Include="Assets\Scripts\modernizr.custom.js" />
+    <Content Include="Assets\Scripts\onepage-scroll\jquery.onepage-scroll.js" />
+    <Content Include="Assets\Scripts\onepage-scroll\jquery.onepage-scroll.min.js" />
+    <Content Include="Assets\Scripts\scrollme-master\jquery.scrollme.js" />
+    <Content Include="Assets\Scripts\scrollme-master\jquery.scrollme.min.js" />
+    <Content Include="Assets\Scripts\select2\init.js" />
+    <Content Include="Assets\Scripts\select2\select2.min.js" />
+    <Content Include="Assets\Scripts\smoothscroll.js" />
+    <Content Include="Assets\Scripts\snap.min.js" />
+    <Content Include="Assets\Scripts\stacktable\init.js" />
+    <Content Include="Assets\Scripts\stacktable\stacktable.js" />
+    <Content Include="Assets\Scripts\twentytwenty\init.js" />
+    <Content Include="Assets\Scripts\twentytwenty\jquery.event.move.js" />
+    <Content Include="Assets\Scripts\twentytwenty\jquery.twentytwenty.js" />
     <Content Include="Assets\Styles\bootstrap.css" />
     <Content Include="Assets\Styles\site.css" />
     <Content Include="Assets\Styles\style.css" />
@@ -312,7 +350,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Assets\Scripts\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
