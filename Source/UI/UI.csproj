@@ -196,6 +196,58 @@
     <Content Include="Assets\Bootstrap\js\tests\visual\scrollspy.html" />
     <Content Include="Assets\Bootstrap\js\tests\visual\tab.html" />
     <Content Include="Assets\Bootstrap\js\tests\visual\tooltip.html" />
+    <Content Include="Assets\Fonts\flexslider\bg_play_pause.png" />
+    <Content Include="Assets\Fonts\flexslider\flexslider-icon.svg" />
+    <Content Include="Assets\Fonts\fontawesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Assets\Images\Content\computer-about-clients-bg.jpg" />
+    <Content Include="Assets\Images\Content\computer-about-portrait.jpg" />
+    <Content Include="Assets\Images\Content\computer-about-services-bg.jpg" />
+    <Content Include="Assets\Images\Content\computer-blog-image-1.jpg" />
+    <Content Include="Assets\Images\Content\computer-blog-image-2.jpg" />
+    <Content Include="Assets\Images\Content\computer-blog-image-3.jpg" />
+    <Content Include="Assets\Images\Content\computer-blog-image-4.jpg" />
+    <Content Include="Assets\Images\Content\computer-home-clients-bg.jpg" />
+    <Content Include="Assets\Images\Content\computer-home-contact-bg.jpg" />
+    <Content Include="Assets\Images\Content\computer-home-gallery-1.jpg" />
+    <Content Include="Assets\Images\Content\computer-home-gallery-2.jpg" />
+    <Content Include="Assets\Images\Content\computer-home-gallery-3.jpg" />
+    <Content Include="Assets\Images\Content\computer-home-gallery-4.jpg" />
+    <Content Include="Assets\Images\Content\computer-home-gallery-5.jpg" />
+    <Content Include="Assets\Images\Content\computer-home-gallery-6.jpg" />
+    <Content Include="Assets\Images\Content\computer-home-gallery-large-1.jpg" />
+    <Content Include="Assets\Images\Content\computer-home-gallery-large-2.jpg" />
+    <Content Include="Assets\Images\Content\computer-home-gallery-large-3.jpg" />
+    <Content Include="Assets\Images\Content\computer-home-gallery-large-4.jpg" />
+    <Content Include="Assets\Images\Content\computer-home-gallery-large-5.jpg" />
+    <Content Include="Assets\Images\Content\computer-home-gallery-large-6.jpg" />
+    <Content Include="Assets\Images\Content\computer-home-main-bg.jpg" />
+    <Content Include="Assets\Images\Content\computer-home-portrait.jpg" />
+    <Content Include="Assets\Images\Content\computer-home-services-bg.jpg" />
+    <Content Include="Assets\Images\Content\computer-home-services-icon-1.png" />
+    <Content Include="Assets\Images\Content\computer-home-services-icon-2.png" />
+    <Content Include="Assets\Images\Content\computer-home-services-icon-3.png" />
+    <Content Include="Assets\Images\Content\computer-home-services-icon-4.png" />
+    <Content Include="Assets\Images\Content\computer-materials-about-bg.jpg" />
+    <Content Include="Assets\Images\Content\computer-materials-about-portrait.jpg" />
+    <Content Include="Assets\Images\Content\computer-materials-basic.jpg" />
+    <Content Include="Assets\Images\Content\computer-materials-details-bg.jpg" />
+    <Content Include="Assets\Images\Content\computer-materials-hardware.jpg" />
+    <Content Include="Assets\Images\Content\computer-materials-networks.jpg" />
+    <Content Include="Assets\Images\Content\computer-materials-software-1.png" />
+    <Content Include="Assets\Images\Content\computer-materials-software-2.png" />
+    <Content Include="Assets\Images\Content\computer-materials-software-3.png" />
+    <Content Include="Assets\Images\Content\computer-materials-software-4.png" />
+    <Content Include="Assets\Images\Content\computer-materials-software-5.png" />
+    <Content Include="Assets\Images\Content\computer-materials-software-6.png" />
+    <Content Include="Assets\Images\Content\computer-materials-stuff-1.jpg" />
+    <Content Include="Assets\Images\Content\computer-materials-stuff-2.jpg" />
+    <Content Include="Assets\Images\Content\computer-materials-stuff-3.jpg" />
+    <Content Include="Assets\Images\Content\computer-materials-stuff-4.jpg" />
+    <Content Include="Assets\Images\Content\favicon.ico" />
+    <Content Include="Assets\Images\Content\logo-footer.png" />
+    <Content Include="Assets\Images\Content\logo-solid.png" />
+    <Content Include="Assets\Images\Content\logo.png" />
+    <Content Include="Assets\Images\Content\map-marker-computer.png" />
     <Content Include="Assets\Images\decoration-line-type1-rotate.png" />
     <Content Include="Assets\Images\decoration-line-type1.png" />
     <Content Include="Assets\Images\decoration-line-type2-rotate.png" />
@@ -260,7 +312,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Assets\Images\Content\" />
     <Folder Include="Assets\Scripts\" />
   </ItemGroup>
   <ItemGroup>
@@ -342,6 +393,28 @@
     <Content Include="Assets\Bootstrap\less\type.less" />
     <Content Include="Assets\Bootstrap\less\utilities.less" />
     <Content Include="Assets\Bootstrap\less\wells.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Fonts\flexslider\flexslider-icon.eot" />
+    <Content Include="Assets\Fonts\flexslider\flexslider-icon.ttf" />
+    <Content Include="Assets\Fonts\flexslider\flexslider-icon.woff" />
+    <Content Include="Assets\Fonts\fontawesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Assets\Fonts\fontawesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Assets\Fonts\fontawesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Assets\Fonts\fontawesome\fonts\FontAwesome.otf" />
+    <Content Include="Assets\Fonts\fontawesome\less\bordered-pulled.less" />
+    <Content Include="Assets\Fonts\fontawesome\less\core.less" />
+    <Content Include="Assets\Fonts\fontawesome\less\fixed-width.less" />
+    <Content Include="Assets\Fonts\fontawesome\less\font-awesome.less" />
+    <Content Include="Assets\Fonts\fontawesome\less\icons.less" />
+    <Content Include="Assets\Fonts\fontawesome\less\larger.less" />
+    <Content Include="Assets\Fonts\fontawesome\less\list.less" />
+    <Content Include="Assets\Fonts\fontawesome\less\mixins.less" />
+    <Content Include="Assets\Fonts\fontawesome\less\path.less" />
+    <Content Include="Assets\Fonts\fontawesome\less\rotated-flipped.less" />
+    <Content Include="Assets\Fonts\fontawesome\less\spinning.less" />
+    <Content Include="Assets\Fonts\fontawesome\less\stacked.less" />
+    <Content Include="Assets\Fonts\fontawesome\less\variables.less" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
