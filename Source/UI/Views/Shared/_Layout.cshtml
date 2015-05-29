@@ -1,12 +1,27 @@
 ﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="description" content="kevin-main.com">
+    <meta name="author" content="Kevin Main">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+    <title>kevin-main.com - @ViewBag.Title</title>
+
+    <link rel="icon" href="./Assets/Images/Content/favicon.ico">
+
+    @Styles.Render("~/Assets/Styles")
+    
+    <!--[if lt IE 9]>
+    @Scripts.Render("~/Assets/Scripts/ltIE9")
+    <![endif]-->
+
+    @Scripts.Render("~/Assets/Scripts/modernizr")
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
