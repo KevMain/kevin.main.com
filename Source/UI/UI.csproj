@@ -331,6 +331,9 @@
     <Content Include="Assets\Styles\bootstrap.css" />
     <Content Include="Assets\Styles\site.css" />
     <Content Include="Assets\Styles\style.css" />
+    <Content Include="Assets\twitter\config.php" />
+    <Content Include="Assets\twitter\js\jquery.tweet.js" />
+    <Content Include="Assets\twitter\proxy\twitter_proxy.php" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
@@ -452,6 +455,39 @@
     <Content Include="Assets\Fonts\fontawesome\less\spinning.less" />
     <Content Include="Assets\Fonts\fontawesome\less\stacked.less" />
     <Content Include="Assets\Fonts\fontawesome\less\variables.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\less\animate.less" />
+    <Content Include="Assets\less\bootstrap.less" />
+    <Content Include="Assets\less\computerservice.less" />
+    <Content Include="Assets\less\ct\buttons.less" />
+    <Content Include="Assets\less\ct\forms.less" />
+    <Content Include="Assets\less\ct\hover.less" />
+    <Content Include="Assets\less\ct\mediasections.less" />
+    <Content Include="Assets\less\ct\menu.less" />
+    <Content Include="Assets\less\ct\mixins.less" />
+    <Content Include="Assets\less\ct\typography.less" />
+    <Content Include="Assets\less\ct\utilities.less" />
+    <Content Include="Assets\less\dentist.less" />
+    <Content Include="Assets\less\flexslider.less" />
+    <Content Include="Assets\less\intro-effects.less" />
+    <Content Include="Assets\less\magnific-popup.less" />
+    <Content Include="Assets\less\makeup.less" />
+    <Content Include="Assets\less\nanny.less" />
+    <Content Include="Assets\less\repairman.less" />
+    <Content Include="Assets\less\select2.less" />
+    <Content Include="Assets\less\style.less" />
+    <Content Include="Assets\less\tailor.less" />
+    <Content Include="Assets\less\twentytwenty.less" />
+    <Content Include="Assets\less\variables.less" />
+    <Content Include="Assets\less\yoga.less" />
+    <Content Include="Assets\motive-colors\motive-darkBlue.less" />
+    <Content Include="Assets\motive-colors\motive-green.less" />
+    <Content Include="Assets\motive-colors\motive-lightBlue.less" />
+    <Content Include="Assets\motive-colors\motive-lightRed.less" />
+    <Content Include="Assets\motive-colors\motive-orange.less" />
+    <Content Include="Assets\motive-colors\motive-pink.less" />
+    <Content Include="Assets\motive-colors\motive-yellow.less" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
