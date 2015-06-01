@@ -10,13 +10,9 @@
     <meta name="author" content="Kevin Main">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>kevin-main.com - @ViewBag.Title</title>
-
+    <title>Kevin Main - Software Developer - @ViewBag.Title</title>
     <link rel="icon" href=@Url.Content("~/Assets/Images/Content/favicon.ico")>
-
     @Styles.Render("~/Assets/Styles")
-
     <!--[if lt IE 9]>
     @Scripts.Render("~/Assets/Scripts/ltIE9")
     <![endif]-->
@@ -26,12 +22,8 @@
     <div class="main">
         <div class="ct-topbar ct-topbar--default">
             <div class="container">
-                <!-- Header row -->
                 <div class="row">
-                    <!-- Contact details column -->
-                    <div class="col-sm-6 col-lg-6"></div>
-                    <!-- Social Media column-->
-                    <div class="col-sm-6 col-lg-6">
+                    <div class="col-sm-12 col-lg-12">
                         <div class="ct-socials text-right">
                             <a href="https://www.facebook.com/KevMain" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
                             <a href="https://twitter.com/KevMain" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
@@ -44,10 +36,6 @@
         </div>
         <div class="ct-navbarMobile">
             <div class="navbar-header">
-                <a class="navbar-brand" href="indexmulti.html">
-                    <img class="ct-logo-navbar--transparent" src=@Url.Content("~/Assets/Images/Content/logo.png") alt="">
-                    <img class="ct-logo-navbar--solid" src=@Url.Content("~/Assets/Images/Content/logo-solid.png") alt="">
-                </a>
             </div>
             <button type="button" class="navbar-toggle">
                 <span class="sr-only">Toggle navigation</span>
@@ -56,225 +44,57 @@
                 <span class="icon-bar"></span>
             </button>
         </div>
-        <!-- Start Mobile Navigation -->
         <div class="ct-menuMobile">
             <ul class="ct-menuMobile-navbar">
-                <li><a href="#header">Start</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#prices">Prices</a></li>
-                <li><a href="#clients">Clients</a></li>
-                <li><a href="#works">Works</a></li>
-                <li class="dropdown ">
-                    <a href="#contact">Contact</a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <span>Monday - Friday</span>
-                            <p>9:00AM - 6:00PM</p>
-                            <span>Saturday</span>
-                            <p>10:00AM - 4:00PM</p>
-                            <span>Sunday</span>
-                            <p>CLOSED</p>
-                        </li>
-                    </ul>
-                </li>
+                <li><a href="#header">Who I Am</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Hire Me</a></li>
+                <li><a href="http://blog.kevin-main.com/">Blog</a></li>
             </ul>
         </div>
-        <!-- End Mobile Navigation -->
-        <!-- Start Main Navigation -->
         <div id="ct-js-wrapper" class="ct-pageWrapper">
             <nav class="navbar ct-navbar--transparent ct-navbar--stickyToTop ct-navbar--withTopbar" role="navigation">
                 <div class="container">
-                    <div class="navbar-header">
-                       <!-- <a class="navbar-brand" href="indexmulti.html">
-                            <img class="ct-logo-navbar--transparent" src=@Url.Content("~/Assets/Images/Content/logo.png") alt="">
-                            <img class="ct-logo-navbar--solid" src=@Url.Content("~/Assets/Images/Content/logo-solid.png") alt="">
-                        </a>-->
-                    </div>
+                    <div class="navbar-header"></div>
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="onepage"><a href="#header">Who I am</a></li>
+                            <li class="onepage"><a href="#header">Who I Am</a></li>
                             <li class="onepage"><a href="#about">About Me</a></li>
                             <li class="onepage"><a href="#contact">Hire Me</a></li>
-                            <li class="onepage"><a href="http://blog.kevin-main.com/">Blog</a></li>
+                            <li><a href="http://blog.kevin-main.com/">Blog</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
-            <header class="ct-mediaSection ct-section scroll" id="header" data-stellar-background-ratio="0.3" data-height="100%" data-type="parallax" data-bg-image=@Url.Content("~/Assets/Images/Content/computer-home-main-bg.jpg") data-bg-image-mobile=@Url.Content("~/Assets/Images/Content/computer-home-main-bg.jpg")>
-                <div class="ct-mediaSection-inner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="ct-header-text col-md-12 text-center ct-js-animationDynamic">
-                                <h2 class="ct-u-paddingBottom40 ct-js-animation--item ct-motive-text" data-when="span" data-from="0" data-to="0.5" data-opacity="0" data-translatey="-100">Kevin Main<br>Software Developer</h2>
-                                <h2 class="ct-u-hdr2 ct-js-animation--item" data-when="span" data-from="0" data-to="0.5" data-opacity="0" data-translatey="-100">Optimizationeer. Abstractionist. Algorithmist. Recursionist</h2>
-                                <div class="ct-divider ct-divider--type6 ct-js-animation--item" data-when="span" data-from="0" data-to="0.5" data-opacity="0" data-translatey="100">
-                                    <div class="ct-line ct-line--left"></div>
-                                    <img src=@Url.Content("~/Assets/Images/divider-icon-type6.png") alt="">
-                                    <div class="ct-line ct-line--right"></div>
-                                </div>
-                                <a href="#contact" class="btn btn-default btn--radius ct-js-btnScroll ct-js-animation--item" data-when="span" data-from="0" data-to="0.5" data-opacity="0" data-translatey="100">Talk to me</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
-            <section class="ct-mediaSection  ct-u-paddingBoth80 scroll" id="about">
-                <div class="ct-header-arrow--circleDecoration2 ct-animation--rotate">
-                    <a class="ct-js-btnScroll" href="#about">
-                        <div class="ct-arrow--outer"></div>
-                        <div class="ct-arrow--inner">
-                            <div class="ct-arrow--icon">
-                                <div class="ct-arrow"></div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+            @RenderBody()
+            <footer>
                 <div class="container">
-                    <header class="ct-pageSectionHeader text-center">
-                        <h2 class="ct-js-animation--item ct-motive-text" data-when="enter" data-from="0" data-to="1" data-opacity="0" data-translatey="-50"><span class="ct-u-hdr3">About</span> me</h2>
-                    </header>
-                    <div class="row ct-u-image--full-width">
-                        <div class="col-sm-4 col-md-4 ct-u-paddingBottom40">
-                            <img src=@Url.Content("~/Assets/Images/Content/computer-home-portrait.jpg") alt="">
-                        </div>
-                        <div class="col-sm-4 col-md-4 ct-u-paddingBottom40">
-                        <p>
-                            I have over 10 years experience as an agile developer specialising in ASP.NET and C# building n-tier web applications using TDD.
-                            <br /><br />
-                            I have good knowledge of Microsoft SQL server and database principles and also NoSQL data stores such as MongoDB.
-                            <br /><br />
-                            I have worked across multiple JavaScript frameworks such as NodeJS, KnockoutJS and Durandal as well as a number of unit testing frameworks.
-                            <br /><br />
-                            I have also built websites using a variety of other programming languages including ASP, PHP, PERL and ColdFusion.
-                        </p>
-                        </div>
-                        <div class="col-sm-4 col-md-4 ct-u-paddingBottom40">
-                            <p>
-                                I have exceptional leadership skills, which I have demonstrated as the lead developer on several major web application projects. which were delivered to specification, on time and to budget.
-                                <br /><br />
-                                I have worked in a full agile environment as well as more traditional waterfall companies and believe I have gained a lot of skills in working with stakeholders to produce good reliable software in a way that works best for them.
-                                <br /><br />
-                                Specialties: C# ASP.NET Web development, .NET (All versions), ASP.NET MVC (All versions), Object-oriented software design, SharePoint Products and Technologies, HTML, JavaScript, XML and AJAX
-                            </p>
-                        </div>
+                    <div class="row">
+                        <div class="col-sm-5 totop "><a id="ct-js-totop" href="#header">Go to the top <i class="fa fa-angle-up"></i></a> </div>
+                        <div class="col-sm-5 text-right copyright">© 2015 - Kevin Main</div>
                     </div>
                 </div>
-            </section>
-            <section class="ct-mediaSection ct-u-paddingBoth80 ct-section ct-decoration--type6 scroll" id="contact" data-stellar-background-ratio="0.3" data-height="736" data-type="parallax" data-bg-image=@Url.Content("~/Assets/Images/Content/computer-home-contact-bg.jpg") data-bg-image-mobile=@Url.Content("~/Assets/Images/Content/computer-home-contact-bg.jpg") style="min-height: 736px; background-image: url(http://you.html.themeplayers.net/computerservice/assets/images/demo-content/computerservice/computer-home-contact-bg.jpg); background-position: 50% 56.1px;">
-                    <div class="container">
-                        <header class="ct-pageSectionHeader text-center ct-js-animationDynamic">
-                            <h2 class="ct-js-animation--item ct-motive-text" data-when="span" data-from="0.5" data-to="0" data-opacity="0" data-translatey="-50"><span class="ct-u-text--white ct-u-hdr3">Get</span> in touch</h2>
-                        </header>
-                        <div class="row">
-                            <div class="col-md-4 ct-u-text--white">
-                                <div class="ct-item--contact ct-address">
-                                    <span>Availabe For Hire<br /><br />Have an interesting project that needs someone with experience in building rapid applications for large corporations that actually work? Want someone who knows how to build applications to the correct standards and design? I freelance, get in touch.</span>
-                                </div>
-                                
-                                <div class="ct-item--contact ct-socials--contact">
-                                    <span class="ct-header--contact">Follow me</span>
-                                    <a href="https://www.facebook.com/KevMain" class="ct-socials--square-rounded"><i class="fa fa-facebook"></i></a>
-                                    <a href="https://twitter.com/KevMain" class="ct-socials--square-rounded"><i class="fa fa-twitter"></i></a>
-                                    <a href="https://plus.google.com/+KevMain81" class="ct-socials--square-rounded"><i class="fa fa-google-plus"></i></a>
-                                    <a href="http://uk.linkedin.com/in/KevMain" class="ct-socials--square-rounded"><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="ct-contactForm--type3">
-                                    <div class="successMessage alert alert-success">
-                                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                                        Thank You!
-                                    </div>
-                                    <div class="errorMessage alert alert-danger">
-                                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                                        Ups! An error occured. Please try again later.
-                                    </div>
-                                    <form role="form" action="./assets/form/send.php" method="post" class="contactForm validateIt"
-                                          data-email-subject="Contact Form" data-show-errors="true">
-                                        <div class="row padding-xs-top">
-                                            <div class="col-md-6 col-sm-6">
-                                                <div class="form-group ct-form-group-label--float">
-                                                    <input id="contact_name" placeholder="Your name" required type="text" name="field[]" class="form-control input-lg">
-                                                    <label for="contact_name">Your name *</label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 col-sm-6">
-                                                <div class="form-group ct-form-group-label--float">
-                                                    <input id="contact_email" placeholder="Your email" required type="email" name="field[]" class="form-control input-lg">
-                                                    <label for="contact_email">Your email *</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-xs-12 col-sm-12 col-md-12">
-                                                <div class="form-group ct-form-group-label--float">
-                                                    <textarea id="contact_message" placeholder="Your message" class="form-control input-lg" rows="4" name="field[]" required></textarea>
-                                                    <label for="contact_message">Your message *</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-xs-12">
-                                                <button type="submit" class="btn btn-primary btn--radius btn-lg pull-right">Send message</button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <div class="container"></div>
-                <div class="hidemap">
-                </div>
-                <div class="container"></div>
-                <footer>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-5 totop "><a id="ct-js-totop" href="#header">Go to the top <i class="fa fa-angle-up"></i></a> </div>
-                            <div class="col-sm-5 text-right copyright">© 2015 - Kevin Main</div>
-                        </div>
-                    </div>
-                </footer>
-</div>
-        @RenderBody()
-
-
+            </footer>
+        </div>
     </div>
-    <!-- JavaScripts -->
-
     <script src=@Url.Content("~/Assets/Scripts/jquery.min.js")></script>
     <script src=@Url.Content("~/Assets/Bootstrap/js/bootstrap.min.js")></script>
-
     <script src=@Url.Content("~/Assets/Scripts/jquery.pagescroller.lite.js")></script>
-
     <script src=@Url.Content("~/Assets/Scripts/device.min.js")></script>
     <script src=@Url.Content("~/Assets/Scripts/snap.min.js")></script>
     <script src=@Url.Content("~/Assets/Scripts/jquery.appear.js")></script>
-
     <script src=@Url.Content("~/Assets/Scripts/magnific-popup/jquery.magnific-popup.min.js")></script>
-
-
     <script src=@Url.Content("~/Assets/Scripts/twentytwenty/jquery.twentytwenty.js")></script>
     <script src=@Url.Content("~/Assets/Scripts/twentytwenty/jquery.event.move.js")></script>
     <script src=@Url.Content("~/Assets/Scripts/twentytwenty/init.js")></script>
-
     <!-- <script src=@Url.Content("~/Assets/Scripts/scrollme-master/jquery.scrollme.min.js")></script> -->
     <script src=@Url.Content("~/Assets/Scripts/smoothscroll.js")></script>
-
     <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
     <script src=@Url.Content("~/Assets/Scripts/gmaps/gmap3.min.js")></script>
-
-
     <script src=@Url.Content("~/Assets/Scripts/ct-mediaSection/jquery.stellar.min.js")></script>
     <script src=@Url.Content("~/Assets/Scripts/ct-mediaSection/init.js")></script>
-
     <script src=@Url.Content("~/Assets/js/flexslider/jquery.flexslider-min.js")></script>
-
-
     <script src=@Url.Content("~/Assets/form/js/contact-form.js")></script>
-
     <script src=@Url.Content("~/Assets/Scripts/main.js")></script>
 </body>
 </html>
