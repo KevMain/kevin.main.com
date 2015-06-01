@@ -199,6 +199,13 @@
     <Content Include="Assets\Fonts\flexslider\bg_play_pause.png" />
     <Content Include="Assets\Fonts\flexslider\flexslider-icon.svg" />
     <Content Include="Assets\Fonts\fontawesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Assets\Form\config.php" />
+    <Content Include="Assets\Form\js\contact-form.js" />
+    <Content Include="Assets\Form\send.php" />
+    <Content Include="Assets\Form\vendor\class.phpmailer.php" />
+    <Content Include="Assets\Form\vendor\class.pop3.php" />
+    <Content Include="Assets\Form\vendor\class.smtp.php" />
+    <Content Include="Assets\Form\vendor\ctPHPMailer.php" />
     <Content Include="Assets\Images\Content\computer-about-clients-bg.jpg" />
     <Content Include="Assets\Images\Content\computer-about-portrait.jpg" />
     <Content Include="Assets\Images\Content\computer-about-services-bg.jpg" />
