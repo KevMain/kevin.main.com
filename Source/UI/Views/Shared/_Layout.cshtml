@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="description" content="kevin-main.com">
+    <meta name="author" content="Kevin Main">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kevin Main - Software Developer - @ViewBag.Title</title>
+    <link rel="icon" href=@Url.Content("~/Assets/Images/Content/favicon.ico")>
+    @Styles.Render("~/Assets/Styles")
+    <!--[if lt IE 9]>
+    @Scripts.Render("~/Assets/Scripts/ltIE9")
+    <![endif]-->
+    @Scripts.Render("~/Assets/Scripts/modernizr")
+</head>
+<body class="cssAnimate onepager">
+    <div class="main">
+        <div class="ct-topbar ct-topbar--default">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-12">
+                        <div class="ct-socials text-right">
+                            <a href="https://www.facebook.com/KevMain" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/KevMain" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="https://plus.google.com/+KevMain81" data-toggle="tooltip" data-placement="bottom" title="Google+"><i class="fa fa-google-plus"></i></a>
+                            <a href="http://uk.linkedin.com/in/KevMain" data-toggle="tooltip" data-placement="bottom" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ct-navbarMobile">
+            <div class="navbar-header">
+            </div>
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="ct-menuMobile">
+            <ul class="ct-menuMobile-navbar">
+                <li><a href="#header">Who I Am</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Hire Me</a></li>
+                <li><a href="http://blog.kevin-main.com/">Blog</a></li>
+            </ul>
+        </div>
+        <div id="ct-js-wrapper" class="ct-pageWrapper">
+            <nav class="navbar ct-navbar--transparent ct-navbar--stickyToTop ct-navbar--withTopbar" role="navigation">
+                <div class="container">
+                    <div class="navbar-header"></div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="onepage"><a href="#header">Who I Am</a></li>
+                            <li class="onepage"><a href="#about">About Me</a></li>
+                            <li class="onepage"><a href="#contact">Hire Me</a></li>
+                            <li><a target="_blank" href="http://blog.kevin-main.com/">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            @RenderBody()
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-5 totop "><a id="ct-js-totop" href="#header">Go to the top <i class="fa fa-angle-up"></i></a> </div>
+                        <div class="col-sm-5 text-right copyright">© 2015 - Kevin Main</div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src=@Url.Content("~/Assets/Scripts/jquery.min.js")></script>
+    <script src=@Url.Content("~/Assets/Bootstrap/js/bootstrap.min.js")></script>
+    <script src=@Url.Content("~/Assets/Scripts/jquery.pagescroller.lite.js")></script>
+    <script src=@Url.Content("~/Assets/Scripts/device.min.js")></script>
+    <script src=@Url.Content("~/Assets/Scripts/snap.min.js")></script>
+    <script src=@Url.Content("~/Assets/Scripts/jquery.appear.js")></script>
+    <script src=@Url.Content("~/Assets/Scripts/magnific-popup/jquery.magnific-popup.min.js")></script>
+    <script src=@Url.Content("~/Assets/Scripts/twentytwenty/jquery.twentytwenty.js")></script>
+    <script src=@Url.Content("~/Assets/Scripts/twentytwenty/jquery.event.move.js")></script>
+    <script src=@Url.Content("~/Assets/Scripts/twentytwenty/init.js")></script>
+    <!-- <script src=@Url.Content("~/Assets/Scripts/scrollme-master/jquery.scrollme.min.js")></script> -->
+    <script src=@Url.Content("~/Assets/Scripts/smoothscroll.js")></script>
+    <script src=@Url.Content("~/Assets/Scripts/ct-mediaSection/jquery.stellar.min.js")></script>
+    <script src=@Url.Content("~/Assets/Scripts/ct-mediaSection/init.js")></script>
+    <script src=@Url.Content("~/Assets/Scripts/flexslider/jquery.flexslider-min.js")></script>
+    <script src=@Url.Content("~/Assets/Form/js/contact-form.js")></script>
+    <script src=@Url.Content("~/Assets/Scripts/main.js")></script>
+</body>
+</html>
