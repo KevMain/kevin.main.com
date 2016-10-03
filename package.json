@@ -1,0 +1,22 @@
+{
+  "name": "kevin.main.com",
+  "version": "1.0.0",
+  "description": "kevin.main.com\r ==============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevMain/kevin.main.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevMain/kevin.main.com/issues"
+  },
+  "homepage": "https://github.com/KevMain/kevin.main.com#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

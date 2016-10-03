@@ -1,3 +1,5 @@
+#addin "Cake.Gulp"
+
 //////////////////////////////////////////////////////////////////////
 // ARGUMENTS
 //////////////////////////////////////////////////////////////////////
@@ -33,16 +35,23 @@ Task("Build")
     .IsDependentOn("Restore-NuGet-Packages")
     .Does(() =>
 {
-    MSBuild("./Source/kevin-main.com.sln", settings => settings.SetConfiguration(configuration));
-    
+    MSBuild("./Source/kevin-main.com.sln", settings => settings.SetConfiguration(configuration)
+        .WithProperty("Verbosity", "quiet"));
 });
+
+ Task("BuildSite")
+    .IsDependentOn("Build")
+    .Does(() => 
+ {
+    Gulp.Local.Execute(settings => settings.WithGulpFile("./Source/UI/gulpfile.js"));
+ });
 
 //////////////////////////////////////////////////////////////////////
 // TASK TARGETS
 //////////////////////////////////////////////////////////////////////
 
 Task("Default")
-    .IsDependentOn("Build");
+    .IsDependentOn("BuildSite");
 
 //////////////////////////////////////////////////////////////////////
 // EXECUTION
