@@ -1,3 +1,4 @@
+#addin "Cake.Npm"
 #addin "Cake.Gulp"
 
 //////////////////////////////////////////////////////////////////////
@@ -39,8 +40,15 @@ Task("Build")
         .WithProperty("Verbosity", "quiet"));
 });
 
+Task("Npm")
+    .Does(() =>
+{
+    Npm.Install(settings => settings.Package("gulp"));
+});
+
  Task("BuildSite")
     .IsDependentOn("Build")
+    .IsDependentOn("Npm")
     .Does(() => 
  {
     Gulp.Local.Execute(settings => settings.WithGulpFile("./Source/UI/gulpfile.js"));
