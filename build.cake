@@ -43,7 +43,7 @@ Task("Build")
 Task("Npm")
     .Does(() =>
 {
-    Npm.Install(settings => settings.Package("gulp"));
+    ((NpmRunner)Npm.WithLogLevel(NpmLogLevel.Silent)).Install(settings => settings.Package("gulp"));
 });
 
  Task("BuildSite")
