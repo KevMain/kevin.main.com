@@ -29,7 +29,12 @@ Task("Restore-NuGet-Packages")
     .IsDependentOn("Clean")
     .Does(() =>
 {
-    NuGetRestore("./Source/kevin-main.com.sln");
+    NuGetRestore("./Source/kevin-main.com.sln", 
+        new NuGetRestoreSettings 
+        { 
+            Verbosity = NuGetVerbosity.Quiet 
+        }
+    );
 });
 
 Task("Build")
